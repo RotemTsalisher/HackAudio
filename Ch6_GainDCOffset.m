@@ -15,6 +15,3 @@ ylabel('y[n]'); xlabel('t[sec]'); legend('x1 = in', 'y1 = g1*x1 + {\mu1}','y2 = 
 figure(2); plot(in,in,'black--',in,y1,'red',in,y2,'blue'); title('Transfer Curves for Signals'); ylabel('y[n]'); xlabel('x[n]');
 legend('x1 = in', 'y1 = g1*x1 + {\mu1}','y2 = g2*x1 + {\mu2}'); grid on; 
 ax = gca; ax.XAxisLocation = 'origin'; ax.YAxisLocation = 'origin';
-
-
-lalala;
